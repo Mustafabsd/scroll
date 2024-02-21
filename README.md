@@ -86,7 +86,7 @@ go test -tags="mock_verifier" -v -race -covermode=atomic scroll-tech/coordinator
 go test -v -race -covermode=atomic scroll-tech/database/...
 go test -v -race -covermode=atomic scroll-tech/common/...
 ```
-
+scroll
 ## Testing Contracts
 
 You can find the unit tests in [`contracts/src/test/`](/contracts/src/test/), and integration tests in [`contracts/integration-test/`](/contracts/integration-test/).
